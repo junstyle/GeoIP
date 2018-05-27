@@ -67,7 +67,7 @@ try {
 		$sth->execute();
 	});
 
-	Importer::csvRead($files['GeoLite2-Country-Locations-en.csv'], function($values) use($dbh) {
+	Importer::csvRead($files['GeoLite2-Country-Locations-zh-CN.csv'], function($values) use($dbh) {
 		$sth = $dbh->prepare('
 			INSERT INTO country_locations (
 				geoname_id,
