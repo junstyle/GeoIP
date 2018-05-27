@@ -17,7 +17,7 @@ try {
 	$countryBlocks    = '';
 	$countryLocations = '';
 
-	$files = Importer::getFiles($url, ['GeoLite2-Country-Blocks-IPv4.csv', 'GeoLite2-Country-Locations-en.csv']);
+	$files = Importer::getFiles($url, ['GeoLite2-Country-Blocks-IPv4.csv', 'GeoLite2-Country-Locations-zh-CN.csv']);
 
 	$dbh = new \PDO('sqlite:' . $dbFile);
 
