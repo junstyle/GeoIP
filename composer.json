@@ -1,5 +1,5 @@
 {
-	"name": "aliasio/geoip",
+	"name": "junstyle/geoip",
 	"description": "Maxmind GeoLite2 wrapper",
 	"authors": [
 		{
